@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ h2{
+    color: red;
+     }
+ </style>
+ </head>
+ <body>
+ <h1 style="color: blue;">Szoftver fejlesztés</h1>
+ <h2>Szoftver fejlesztés lépése<h2>
+ <ol>
+ <li>Analízis</li>
+ <li>Tervezés</li>
+ <li>Kódolás</li>
+ <li>Tesztelés/karbantartás</li>
+     </ol>
+<h2>Analízis</h2>
+ <div>Az analízis során felismerjük a helyzet: mire van szükség, mik a lehetőségek.<br> Itt kell dönteni, hogy mi a feladat megvalósítható-e, mik a célok, meg kell becsülni az időt, költségeket</div>
+ <h2><b>Feladat specifikáció</b></h2>
+ <ul>
+     <li>Teljes</li>
+     <li>Érthető</li>
+     <li>Egyértelmű</li>
+     <li>Pontos</li>
+    <li>Tömög</li>
+     <li>Szemléletes</li>
+     <li>Előrelátó</li>
+     <li>Jól felépített, tagolt</li>
+         </ul>
+     <h2>A beviteli (imput) adatok</h2>
+     <ul>
+     <li>Mik az imput adatok?</li>
+     <li>Milyen a bevételi formájuk?</li>
+     <li>Mik a bevihető értékek?</li>
+      <li>Milyen módon kell befejezni a bevitelt?</li>
+     <li>Milyen kapcsolatok vannak a bevitt adatok között? (adatbázis kezelés)</li>
+     </ul>
+         <h2>A kiviteli (output) adatok</h2>>
+        <ul>
+ <li>Milyen adatokat kell megőrizni</li>
+ <li>milyen formában kell megőrizni</li>
+<li></li>
+ <li></li>
+    </ul>
+    <h2>A tervezés</h2>
+ <p>A tervezés feladata az analízis során összegyüjtött információkat és adatokra alapul véve logiakilag véglegesen kialakítsa az adat struktúrákat és az adatokat manipuláló algoritmus.</p>
+<p>Tervezés módszer kiválasztása:</p>>
+ <ul>
+    <li>A számítás technika mely korszakát éljük?</li>
+    <li>Milyen számítógépre keszül a program?</li>
+    <li>Mekkora a megoldandó feladat?</li>
+    <li>Milyen módszerek állnak rendelkezésre?</li>
+    <li>Milyen a tervező csoport informáltsága?</li>
+    <li>Van-e anyagi fedezet?</li>
+    <li>Mik a tradíciók?</li>
+    <li>Mi a főnöki utasítás?</li>
+    </ul>
+    <p>A tervezés során a folyamatábra segítségével modellezük a folyamatokat, algoritmusokat.<br>a tervezési folyamat dokumentációja a <strong>programterv</strong> Ezt folyamatosan ellenőrizni, tesztelni kell az elképzelt adatokkal.<br> "Fejben lefuttatjuk" programot. Ezt nevezzük száraz tesztnek</p>
+<h2>kódolás</h2>
+<p>Implementálás (kivitelezés)<br>Első lépés a programterv kódolása egy adott programnyelven.<br>A dokumentációja ennek a szakasznak a forrásprogram, illetve a forrásnyelvi lista.<br> Egy forrásnylevi lista akkor jó, ha az</p>
+ <ul>
+  <li>pontosan a programterv szerint készül</li>
+    <li>áttekinthető, olvasható</li>
+    <li>tömör, és egyértelmű megjegyzésekkel van kiegészítve</li>
+        </ul>
+    <p>Szintaktikai hibák javítása történik</p>
+ <h2>Tesztelés</h2>
+ <p>Próbafutások alkalmával természetes, hogy hibát észlelünk<br>Szemantikai hiba: Logikai hibát észlelünk<br>Tesztelés feladata:</p>
+    <ul>
+     <li>Logikai hibák feltárása</li>
+     <li>Szélsőséges esetek feltárása és kezelése</li>
+      <p>Tesztelés folyamata:</p>
+    </ul>
+    <ul>
+<li>különbözö próba adatokkal futtatjuk a programot</li>
+<li>a tesztadatokat ugy kell összeállítani, hogy azok minden lehetséges értékel felvegyenek</li>
+</ul>
+<p>Teszteléskor figyelni kell arra, hogy</p>
+<ul>
+    <li>Pontosan ugy működik-e program, ahogy az a feladatleírásban szerepel?</li>
+    <li>Nem lehet-e elrontani?</li>
+    <li>Elég hatékony-e?</li>
+    <li>A program felhasználó barát-e?</li>
+    <li>Telyjes méretben szolgálja-e a felhasználót?</li>
+    <li>Szép-e a program?</li>
+    <li>Sehol sem idegesítő?</li>
+</ul>
+<p>Tesztelési fázis dokumentációja a <i>kész program</i> és a <i>tesztadatok listája</i></p>
+
+<h2>Dokumentálás</h2>
+<p>Minden fázisnak meg van a maga terméke dokumentációja. A program fejlesztésének befejezésével a teljes dokumentációt meg kell őrizni. Csak így lehet a későbbiekben a programon változtatni.</p>
+<p>A fejlesztői dokumentáció részei:</p>
+<ul>
+    <li>Feladatspecifikáció</li>
+    <li>Programterv</li>
+    <li>Forrásprogram</li>
+    <li>Kész program</li>
+    <li>Tesztadatok listája</li>
+    <li>+1 felhasználó kap a kész rendszerhez egy program használati kapcsolatos információkat tartalmazó dokumentációt.</li>
+</ul>
+<p>Felhasználói dokumentáció részei:</p>
+<ul>
+    <li>Feladat leírása</li>
+    <li>Hardver környezet:<br>Számítógép típusa</br>minimális konfigurácíó</li>
+    <li>szoftver környezet<br>operációs rendszer</br>futtatáshoz szükséges kiegészítő szoftverek</li>
+    <li>fejlesztési környezet, programozási nyelv</li>
+    <li>Program betöltése, indítása</li>
+    <li>-a program használatának részletes leírása<br>-billentyűk használata</br>-működési leírás minden részletre kitérően<br>-segítség kérés lehetőségei</br>-képernyő tervek, lista tervek<br>-hibaüzenetek felsorolása, útmutatás, teendők</br></li>
+</ul>
+ </body>
+  </html>
